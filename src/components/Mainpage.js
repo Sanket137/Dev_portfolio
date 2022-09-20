@@ -32,7 +32,7 @@ const Mainpage = () => {
             </h1>
             <p className="title_job">Front End Developer</p>
             
-            <a href="https://drive.google.com/file/d/1w42GXAML6UX94pscHMCjLbg06Awf7bdv/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1A2_6MuXyGAzhohaCJj4OeAY0j7I48-VC/view">
             <button className="btn btn-lg btn-light">Download CV</button>
             </a>
             
