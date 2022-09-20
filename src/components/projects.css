@@ -1,0 +1,76 @@
+.project_section{
+    height: 270vh;
+    margin-top: 3rem;
+}
+
+.project_title{
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+.card_div{
+    display: grid;
+    height: 120vh;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+
+}
+.card{
+    width: 20rem;
+    margin: 0 0 8rem 0;
+    color: black;
+    border-radius: 1rem;
+}
+.crd-bg{
+    background: #294b93;
+    color: white;
+    
+}
+.crd-icon{
+    width: 10rem;
+}
+
+.crd-icon.port{
+    width: 12.27rem;
+}
+
+.project_btn{
+    margin: 0 0.5rem ;
+    
+}
+
+.demo_btn{
+    background-color: #FFDB58;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .project_section{
+        height: 100vh;
+        margin: 10rem 0 0 0 ;
+        
+    }
+    .project_title{
+        font-size: 3rem;
+        font-weight: 600;
+        margin: 0;
+    }
+    .card{
+        height: 25rem;
+        width: 30rem;
+        margin: 0 2rem;
+        
+    }
+    .card_div{
+        display: flex;
+        margin: -12rem 0;
+        
+    
+    }
+    .project_btn{
+        margin: 0 0.5rem ;
+        position: relative;
+        top: 4.5rem;
+    }
+    
+}

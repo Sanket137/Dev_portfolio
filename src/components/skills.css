@@ -1,0 +1,43 @@
+.skills_section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 50vh;
+  }
+  
+  .skills_title {
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+  }
+  
+  img {
+    width: 5rem;
+  }
+  
+  .react_icon {
+    background: black;
+    border-radius: 1.5rem;
+  }
+  .js_icon {
+    
+    border-radius: 1.5rem;
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .skills_section {
+      margin: 4rem 0 0 0;
+      height: 100vh;
+    }
+  
+    img {
+      width: 10rem;
+    }
+    
+    .skills_title {
+      font-size: 3rem;
+      font-weight: 600;
+      margin-bottom: 8rem;
+    }
+  }
+  

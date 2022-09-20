@@ -1,0 +1,52 @@
+.about_section {
+    height: 80vh;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  .about_title {
+    font-size: 2.3rem;
+    font-weight: 600;
+    position: relative;
+    top: 5rem;
+  }
+  .intro {
+    padding: 2rem 3rem 0;
+    text-align: left;
+    font-size: 1.22rem;
+    font-weight: 500;
+  }
+  
+  .about_bg {
+    visibility: hidden;
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .about_section {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .about_content {
+      margin: 5rem 6rem;
+    }
+    .about_bg {
+      padding: 2rem 5rem 0 0;
+      visibility: visible;
+      width: 40rem;
+    }
+    .about_title {
+      font-size: 3rem;
+      position: relative;
+      top: 16rem;
+    }
+    .intro {
+      padding: 8rem 10rem 0;
+      text-align: left;
+      font-size: 1.85rem;
+      font-weight: 500;
+    }
+  }
+  

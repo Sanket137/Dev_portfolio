@@ -1,0 +1,117 @@
+
+
+body{
+    background-color: #131316;
+    color: #ffffff;
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+}
+
+section{
+   display: grid; 
+   place-items: center;
+   align-content: center;
+   min-height: 95vh;
+   margin-top: -2rem;
+}
+.profile{
+    width: 14rem;
+}
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0;
+   
+}
+.title_name{
+    background: -webkit-linear-gradient(45deg,rgb(240, 69, 255), rgb(33, 103, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.title_job{
+    font-size: 1.45rem;
+    margin: 0;
+}
+.logos{
+    display: flex;
+    margin-top: 7rem;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 2rem;
+    margin: 0rem;
+}
+img{
+    width: 6rem;
+    margin: 2rem ;
+}
+
+.btn{
+    position: relative;
+    top: 4rem;
+    
+}
+
+.logo:nth-child(2){
+    transition-delay: 100ms;
+    
+}
+.logo:nth-child(3){
+    transition-delay: 100ms;
+}
+/* .logo:nth-child(4){
+    transition-delay: 600ms;
+} */
+
+
+@media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
+    }
+}
+
+@media  screen and (min-width: 1024px) {
+
+    .info{
+        text-align: left;
+        
+    }
+    .profile{
+        width: 25rem;
+        margin-right: 25rem;
+    }
+
+    .title{
+        font-size: 5rem;
+    }
+    .title_job{
+        font-size: 2.5rem;
+    }
+    .logos{
+        justify-content: left;
+        margin-top: 10rem;
+        
+    }
+    .logo{
+        width: 3rem;
+        margin: 0rem;
+    }
+
+    
+
+}
